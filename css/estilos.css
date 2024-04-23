@@ -1,0 +1,76 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,500;1,500&display=swap');
+
+
+
+body {
+    background-color: #f0e7de;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: hwb(0 15% 85%); /* Gris Oscuro */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anton", sans-serif;
+}
+
+img {
+    border-radius: 90%;
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+ul,
+h2,
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h2,
+h1 {
+    font-family: "Anton", sans-serif;
+    text-align: left;
+    font-weight: 500;
+    color: #cb1384; /* Fucsia */
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #d8719f; /* Rosa Clarito */
+}
+
+section {
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#vinculo {
+    color: #ffffff; /* blanco */
+}
+
+#vinculo:hover {
+    font-style: italic;
+}
+
+#miColor {
+    color: #B5838D; /* Rosa Clarito */
+    background-color: #e2dfdf; /* Blanco */
+    font-weight: 700;
+}
